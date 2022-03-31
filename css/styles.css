@@ -1,6 +1,6 @@
-p {
+/* p {
   color: rgb(108, 77, 138);
-}
+} */
 
 .Studia,
 .Portfolio,
@@ -20,7 +20,43 @@ p {
 
 .Contacts {
   font-weight: bold;
+  cursor: cell;
 }
 .list {
   color: rgb(255, 255, 255);
+}
+
+/* .List2 h3{
+  color: #f0d046;
+} */
+
+/* .List2 > li{
+   color: #f0d046;
+} */
+
+/* Псевдокласс :focus */
+/* .Studia:focus {
+  color: orange;
+  font-size: 60px;
+} */
+.schedule-body>tr>td:hover {
+  background-color: tomato;
+  color: white;
+}
+
+
+/* Оформление таблицы */
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule>thead>tr>th:hover {
+background-color: rgb(129, 255, 71);
+color: white;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 10px solid #212121;
 }

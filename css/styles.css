@@ -1,0 +1,26 @@
+p {
+  color: rgb(108, 77, 138);
+}
+
+.Studia,
+.Portfolio,
+.Contacts {
+  margin-top: 15px;
+  background: #f0d046;
+  color: #2457af;
+  font-size: 40px;
+}
+
+.Studia:hover,
+.Portfolio:hover,
+.Contacts:hover {
+  background: #2457af;
+  color: #f0d046;
+}
+
+.Contacts {
+  font-weight: bold;
+}
+.list {
+  color: rgb(255, 255, 255);
+}

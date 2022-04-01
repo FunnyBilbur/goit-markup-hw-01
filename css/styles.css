@@ -26,11 +26,11 @@
   color: rgb(255, 255, 255);
 }
 
-/* .List2 h3{
+/* .feature-list h3{
   color: #f0d046;
 } */
 
-/* .List2 > li{
+/* .feature-list > li{
    color: #f0d046;
 } */
 
@@ -60,3 +60,9 @@ color: white;
   padding: 8px;
   border: 10px solid #212121;
 }
+
+/* следующие строчки обозначают, что list_p будет стилизирован только внутри feature-list. Снаружи останется все по прежнему, даже если есть list_p */
+/* .feature-list .list_p{
+  color: rgb(255, 0, 106);
+  
+} */

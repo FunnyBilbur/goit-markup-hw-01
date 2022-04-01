@@ -15,7 +15,7 @@
 .Portfolio:hover,
 .Contacts:hover {
   background: #2457af;
-  color: #f0d046;
+  color: #FFC0CB;
   font-size: 60px;
 }
 
@@ -25,12 +25,12 @@
   color: #5af046;
 }
 
-/* .Studia:focus,
+ .Studia:focus,
 .Portfolio:focus,
 .Contacts:focus {
   color: #f046bd;
   font-size: 60px;
-} */
+} 
 .Studia:visited,
 .Portfolio:visited,
 .Contacts:visited {
